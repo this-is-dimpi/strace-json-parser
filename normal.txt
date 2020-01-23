@@ -1,0 +1,290 @@
+4744  [f7fd3b59] read(0</dev/pts/2>, "Victim\n", 1024) = 7
+4744  [f7fd3b59] write(1</dev/pts/2>, "Name buffer address:    ffffcfc0"..., 33) = 33
+4744  [f7fd3b59] write(1</dev/pts/2>, "Command buffer address: ffffcfe8"..., 33) = 33
+4744  [f7fd3b59] write(1</dev/pts/2>, "Goodbye, Victim!\n", 17) = 17
+4744  [f7fd3b59] write(1</dev/pts/2>, "Executing command: uname -a\n", 28) = 28
+4744  [f7fd3b59] rt_sigaction(SIGINT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4744  [f7fd3b59] rt_sigaction(SIGQUIT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4744  [f7fd3b59] rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+4744  [f7fd3b59] mmap2(NULL, 36864, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0xf7fc5000
+4744  [f7fd3b59] rt_sigprocmask(SIG_BLOCK, ~[], [CHLD], 8) = 0
+4744  [f7ed5844] clone( <unfinished ...>
+4756  [f7fd3b59] rt_sigprocmask(SIG_BLOCK, NULL, ~[KILL STOP], 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGHUP, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGHUP, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGILL, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGILL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGTRAP, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGTRAP, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGABRT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGABRT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGBUS, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGBUS, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGFPE, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGFPE, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGUSR1, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGUSR1, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGSEGV, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGSEGV, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGUSR2, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGUSR2, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGPIPE, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGPIPE, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGALRM, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGALRM, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGTERM, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGTERM, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGSTKFLT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGSTKFLT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGCHLD, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGCHLD, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGCONT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGCONT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGTSTP, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGTSTP, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGTTIN, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGTTIN, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGTTOU, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGTTOU, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGURG, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGURG, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGXCPU, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGXCPU, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGXFSZ, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGXFSZ, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGVTALRM, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGVTALRM, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGPROF, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGPROF, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGWINCH, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGWINCH, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGIO, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGIO, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGPWR, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGPWR, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGSYS, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGSYS, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRTMIN, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_1, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_2, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_2, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_3, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_3, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_4, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_4, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_5, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_5, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_6, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_6, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_7, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_7, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_8, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_8, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_9, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_9, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_10, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_10, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_11, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_11, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_12, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_12, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_13, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_13, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_14, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_14, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_15, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_15, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_16, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_16, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_17, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_17, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_18, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_18, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_19, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_19, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_20, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_20, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_21, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_21, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_22, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_22, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_23, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_23, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_24, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_24, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_25, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_25, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_26, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_26, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_27, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_27, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_28, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_28, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_29, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_29, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_30, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_30, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_31, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_31, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_32, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4756  [f7fd3b59] rt_sigaction(SIGRT_32, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4756  [f7fd3b59] rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+4756  [f7fd3b59] execve("/bin/sh", ["sh", "-c", "uname -a"], 0xffffd1bc /* 56 vars */ <unfinished ...>
+4744  [f7ed5844] <... clone resumed> child_stack=0xf7fcdfe4, flags=CLONE_VM|CLONE_VFORK|SIGCHLD) = 4756
+4744  [f7fd3b59] munmap(0xf7fc5000, 36864) = 0
+4756  [7ffff7fd6090] <... execve resumed> ) = 0
+4744  [f7fd3b59] rt_sigprocmask(SIG_SETMASK, [CHLD], NULL, 8) = 0
+4756  [00007ffff7feec47] brk(NULL <unfinished ...>
+4744  [f7fd3b59] waitpid(4756,  <unfinished ...>
+4756  [00007ffff7feec47] <... brk resumed> ) = 0x555555575000
+4756  [00007ffff7fef917] access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+4756  [00007ffff7fefa04] openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3</etc/ld.so.cache>
+4756  [00007ffff7fef885] fstat(3</etc/ld.so.cache>, {st_mode=S_IFREG|0644, st_size=100764, ...}) = 0
+4756  [00007ffff7fefbd2] mmap(NULL, 100764, PROT_READ, MAP_PRIVATE, 3</etc/ld.so.cache>, 0) = 0x7ffff7fb8000
+4756  [00007ffff7fef937] close(3</etc/ld.so.cache>) = 0
+4756  [00007ffff7fefa04] openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libc-2.29.so>
+4756  [00007ffff7fefac4] read(3</usr/lib/x86_64-linux-gnu/libc-2.29.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320l\2\0\0\0\0\0"..., 832) = 832
+4756  [00007ffff7fef885] fstat(3</usr/lib/x86_64-linux-gnu/libc-2.29.so>, {st_mode=S_IFREG|0755, st_size=1820104, ...}) = 0
+4756  [00007ffff7fefbd2] mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ffff7fb6000
+4756  [00007ffff7fefbd2] mmap(NULL, 1832568, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libc-2.29.so>, 0) = 0x7ffff7df6000
+4756  [00007ffff7fefc77] mprotect(0x7ffff7e1b000, 1642496, PROT_NONE) = 0
+4756  [00007ffff7fefbd2] mmap(0x7ffff7e1b000, 1339392, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libc-2.29.so>, 0x25000) = 0x7ffff7e1b000
+4756  [00007ffff7fefbd2] mmap(0x7ffff7f62000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libc-2.29.so>, 0x16c000) = 0x7ffff7f62000
+4756  [00007ffff7fefbd2] mmap(0x7ffff7fac000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libc-2.29.so>, 0x1b5000) = 0x7ffff7fac000
+4756  [00007ffff7fefbd2] mmap(0x7ffff7fb2000, 13944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7ffff7fb2000
+4756  [00007ffff7fef937] close(3</usr/lib/x86_64-linux-gnu/libc-2.29.so>) = 0
+4756  [00007ffff7fd6d8c] arch_prctl(ARCH_SET_FS, 0x7ffff7fb7580) = 0
+4756  [00007ffff7fefc77] mprotect(0x7ffff7fac000, 12288, PROT_READ) = 0
+4756  [00007ffff7fefc77] mprotect(0x555555570000, 8192, PROT_READ) = 0
+4756  [00007ffff7fefc77] mprotect(0x7ffff7ffc000, 4096, PROT_READ) = 0
+4756  [00007ffff7fefc57] munmap(0x7ffff7fb8000, 100764) = 0
+4756  [00007ffff7ebe8b7] getuid()       = 1000
+4756  [00007ffff7ebe8d7] getgid()       = 1000
+4756  [00007ffff7ebe897] getpid()       = 4756
+4756  [00007ffff7e301d2] rt_sigaction(SIGCHLD, {sa_handler=0x5555555663c0, sa_mask=~[RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x7ffff7e30100}, NULL, 8) = 0
+4756  [00007ffff7ebe8c7] geteuid()      = 1000
+4756  [00007ffff7ee7497] brk(NULL)      = 0x555555575000
+4756  [00007ffff7ee7497] brk(0x555555596000) = 0x555555596000
+4756  [00007ffff7ebe8a7] getppid()      = 4744
+4756  [00007ffff7ee0ea6] stat("/home/bug/PycharmProjects/SystemCallsDeBuG", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+4756  [00007ffff7ee0ea6] stat(".", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+4756  [00007ffff7ebe8c7] geteuid()      = 1000
+4756  [00007ffff7ebe8e7] getegid()      = 1000
+4756  [00007ffff7e301d2] rt_sigaction(SIGINT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4756  [00007ffff7e301d2] rt_sigaction(SIGINT, {sa_handler=0x5555555663c0, sa_mask=~[RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x7ffff7e30100}, NULL, 8) = 0
+4756  [00007ffff7e301d2] rt_sigaction(SIGQUIT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4756  [00007ffff7e301d2] rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=~[RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x7ffff7e30100}, NULL, 8) = 0
+4756  [00007ffff7e301d2] rt_sigaction(SIGTERM, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+4756  [00007ffff7e301d2] rt_sigaction(SIGTERM, {sa_handler=SIG_DFL, sa_mask=~[RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x7ffff7e30100}, NULL, 8) = 0
+4756  [00007ffff7ee0ea6] stat("/opt/anaconda3/condabin/uname", 0x7fffffffdbe0) = -1 ENOENT (No such file or directory)
+4756  [00007ffff7ee0ea6] stat("/usr/local/sbin/uname", 0x7fffffffdbe0) = -1 ENOENT (No such file or directory)
+4756  [00007ffff7ee0ea6] stat("/usr/sbin/uname", 0x7fffffffdbe0) = -1 ENOENT (No such file or directory)
+4756  [00007ffff7ee0ea6] stat("/sbin/uname", 0x7fffffffdbe0) = -1 ENOENT (No such file or directory)
+4756  [00007ffff7ee0ea6] stat("/usr/local/bin/uname", 0x7fffffffdbe0) = -1 ENOENT (No such file or directory)
+4756  [00007ffff7ee0ea6] stat("/usr/bin/uname", {st_mode=S_IFREG|0755, st_size=39584, ...}) = 0
+4756  [00007ffff7ebdc40] clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ffff7fb7850) = 4757
+4756  [00007ffff7ebd96a] wait4(-1,  <unfinished ...>
+4757  [00007ffff7ebde87] execve("/usr/bin/uname", ["uname", "-a"], 0x555555575ee8 /* 56 vars */) = 0
+4757  [00007ffff7feec47] brk(NULL)      = 0x55555555f000
+4757  [00007ffff7fef917] access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+4757  [00007ffff7fefa04] openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3</etc/ld.so.cache>
+4757  [00007ffff7fef885] fstat(3</etc/ld.so.cache>, {st_mode=S_IFREG|0644, st_size=100764, ...}) = 0
+4757  [00007ffff7fefbd2] mmap(NULL, 100764, PROT_READ, MAP_PRIVATE, 3</etc/ld.so.cache>, 0) = 0x7ffff7fb8000
+4757  [00007ffff7fef937] close(3</etc/ld.so.cache>) = 0
+4757  [00007ffff7fefa04] openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libc-2.29.so>
+4757  [00007ffff7fefac4] read(3</usr/lib/x86_64-linux-gnu/libc-2.29.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320l\2\0\0\0\0\0"..., 832) = 832
+4757  [00007ffff7fef885] fstat(3</usr/lib/x86_64-linux-gnu/libc-2.29.so>, {st_mode=S_IFREG|0755, st_size=1820104, ...}) = 0
+4757  [00007ffff7fefbd2] mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ffff7fb6000
+4757  [00007ffff7fefbd2] mmap(NULL, 1832568, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libc-2.29.so>, 0) = 0x7ffff7df6000
+4757  [00007ffff7fefc77] mprotect(0x7ffff7e1b000, 1642496, PROT_NONE) = 0
+4757  [00007ffff7fefbd2] mmap(0x7ffff7e1b000, 1339392, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libc-2.29.so>, 0x25000) = 0x7ffff7e1b000
+4757  [00007ffff7fefbd2] mmap(0x7ffff7f62000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libc-2.29.so>, 0x16c000) = 0x7ffff7f62000
+4757  [00007ffff7fefbd2] mmap(0x7ffff7fac000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libc-2.29.so>, 0x1b5000) = 0x7ffff7fac000
+4757  [00007ffff7fefbd2] mmap(0x7ffff7fb2000, 13944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7ffff7fb2000
+4757  [00007ffff7fef937] close(3</usr/lib/x86_64-linux-gnu/libc-2.29.so>) = 0
+4757  [00007ffff7fd6d8c] arch_prctl(ARCH_SET_FS, 0x7ffff7fb7580) = 0
+4757  [00007ffff7fefc77] mprotect(0x7ffff7fac000, 12288, PROT_READ) = 0
+4757  [00007ffff7fefc77] mprotect(0x55555555d000, 4096, PROT_READ) = 0
+4757  [00007ffff7fefc77] mprotect(0x7ffff7ffc000, 4096, PROT_READ) = 0
+4757  [00007ffff7fefc57] munmap(0x7ffff7fb8000, 100764) = 0
+4757  [00007ffff7ee67d8] openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+4757  [00007ffff7ee7497] brk(NULL)      = 0x55555555f000
+4757  [00007ffff7ee7497] brk(0x555555580000) = 0x555555580000
+4757  [00007ffff7ee67d8] openat(AT_FDCWD, "/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 3</etc/locale.alias>
+4757  [00007ffff7ee0ef5] fstat(3</etc/locale.alias>, {st_mode=S_IFREG|0644, st_size=2995, ...}) = 0
+4757  [00007ffff7ee6914] read(3</etc/locale.alias>, "# Locale name alias data base.\n#"..., 4096) = 2995
+4757  [00007ffff7ee6914] read(3</etc/locale.alias>, "", 4096) = 0
+4757  [00007ffff7ee6657] close(3</etc/locale.alias>) = 0
+4757  [00007ffff7ee67d8] openat(AT_FDCWD, "/usr/lib/locale/en_IN/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = 3</usr/lib/locale/en_IN/LC_IDENTIFICATION>
+4757  [00007ffff7ee0ef5] fstat(3</usr/lib/locale/en_IN/LC_IDENTIFICATION>, {st_mode=S_IFREG|0644, st_size=456, ...}) = 0
+4757  [00007ffff7eeb252] mmap(NULL, 456, PROT_READ, MAP_PRIVATE, 3</usr/lib/locale/en_IN/LC_IDENTIFICATION>, 0) = 0x7ffff7fd0000
+4757  [00007ffff7ee6657] close(3</usr/lib/locale/en_IN/LC_IDENTIFICATION>) = 0
+4757  [00007ffff7ee67d8] openat(AT_FDCWD, "/usr/lib/locale/en_IN/LC_MEASUREMENT", O_RDONLY|O_CLOEXEC) = 3</usr/lib/locale/aa_DJ.utf8/LC_MEASUREMENT>
+4757  [00007ffff7ee0ef5] fstat(3</usr/lib/locale/aa_DJ.utf8/LC_MEASUREMENT>, {st_mode=S_IFREG|0644, st_size=23, ...}) = 0
+4757  [00007ffff7eeb252] mmap(NULL, 23, PROT_READ, MAP_PRIVATE, 3</usr/lib/locale/aa_DJ.utf8/LC_MEASUREMENT>, 0) = 0x7ffff7fcf000
+4757  [00007ffff7ee6657] close(3</usr/lib/locale/aa_DJ.utf8/LC_MEASUREMENT>) = 0
+4757  [00007ffff7ee67d8] openat(AT_FDCWD, "/usr/lib/locale/en_IN/LC_TELEPHONE", O_RDONLY|O_CLOEXEC) = 3</usr/lib/locale/anp_IN/LC_TELEPHONE>
+4757  [00007ffff7ee0ef5] fstat(3</usr/lib/locale/anp_IN/LC_TELEPHONE>, {st_mode=S_IFREG|0644, st_size=53, ...}) = 0
+4757  [00007ffff7eeb252] mmap(NULL, 53, PROT_READ, MAP_PRIVATE, 3</usr/lib/locale/anp_IN/LC_TELEPHONE>, 0) = 0x7ffff7fce000
+4757  [00007ffff7ee6657] close(3</usr/lib/locale/anp_IN/LC_TELEPHONE>) = 0
+4757  [00007ffff7ee67d8] openat(AT_FDCWD, "/usr/lib/locale/en_IN/LC_ADDRESS", O_RDONLY|O_CLOEXEC) = 3</usr/lib/locale/en_IN/LC_ADDRESS>
+4757  [00007ffff7ee0ef5] fstat(3</usr/lib/locale/en_IN/LC_ADDRESS>, {st_mode=S_IFREG|0644, st_size=126, ...}) = 0
+4757  [00007ffff7eeb252] mmap(NULL, 126, PROT_READ, MAP_PRIVATE, 3</usr/lib/locale/en_IN/LC_ADDRESS>, 0) = 0x7ffff7fcd000
+4757  [00007ffff7ee6657] close(3</usr/lib/locale/en_IN/LC_ADDRESS>) = 0
+4757  [00007ffff7ee67d8] openat(AT_FDCWD, "/usr/lib/locale/en_IN/LC_NAME", O_RDONLY|O_CLOEXEC) = 3</usr/lib/locale/en_HK.utf8/LC_NAME>
+4757  [00007ffff7ee0ef5] fstat(3</usr/lib/locale/en_HK.utf8/LC_NAME>, {st_mode=S_IFREG|0644, st_size=72, ...}) = 0
+4757  [00007ffff7eeb252] mmap(NULL, 72, PROT_READ, MAP_PRIVATE, 3</usr/lib/locale/en_HK.utf8/LC_NAME>, 0) = 0x7ffff7fcc000
+4757  [00007ffff7ee6657] close(3</usr/lib/locale/en_HK.utf8/LC_NAME>) = 0
+4757  [00007ffff7ee67d8] openat(AT_FDCWD, "/usr/lib/locale/en_IN/LC_PAPER", O_RDONLY|O_CLOEXEC) = 3</usr/lib/locale/aa_DJ.utf8/LC_PAPER>
+4757  [00007ffff7ee0ef5] fstat(3</usr/lib/locale/aa_DJ.utf8/LC_PAPER>, {st_mode=S_IFREG|0644, st_size=34, ...}) = 0
+4757  [00007ffff7eeb252] mmap(NULL, 34, PROT_READ, MAP_PRIVATE, 3</usr/lib/locale/aa_DJ.utf8/LC_PAPER>, 0) = 0x7ffff7fcb000
+4757  [00007ffff7ee6657] close(3</usr/lib/locale/aa_DJ.utf8/LC_PAPER>) = 0
+4757  [00007ffff7ee67d8] openat(AT_FDCWD, "/usr/lib/locale/en_IN/LC_MESSAGES", O_RDONLY|O_CLOEXEC) = 3</usr/lib/locale/en_IN/LC_MESSAGES>
+4757  [00007ffff7ee0ef5] fstat(3</usr/lib/locale/en_IN/LC_MESSAGES>, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+4757  [00007ffff7ee6657] close(3</usr/lib/locale/en_IN/LC_MESSAGES>) = 0
+4757  [00007ffff7ee67d8] openat(AT_FDCWD, "/usr/lib/locale/en_IN/LC_MESSAGES/SYS_LC_MESSAGES", O_RDONLY|O_CLOEXEC) = 3</usr/lib/locale/en_AG/LC_MESSAGES/SYS_LC_MESSAGES>
+4757  [00007ffff7ee0ef5] fstat(3</usr/lib/locale/en_AG/LC_MESSAGES/SYS_LC_MESSAGES>, {st_mode=S_IFREG|0644, st_size=57, ...}) = 0
+4757  [00007ffff7eeb252] mmap(NULL, 57, PROT_READ, MAP_PRIVATE, 3</usr/lib/locale/en_AG/LC_MESSAGES/SYS_LC_MESSAGES>, 0) = 0x7ffff7fca000
+4757  [00007ffff7ee6657] close(3</usr/lib/locale/en_AG/LC_MESSAGES/SYS_LC_MESSAGES>) = 0
+4757  [00007ffff7ee67d8] openat(AT_FDCWD, "/usr/lib/locale/en_IN/LC_MONETARY", O_RDONLY|O_CLOEXEC) = 3</usr/lib/locale/anp_IN/LC_MONETARY>
+4757  [00007ffff7ee0ef5] fstat(3</usr/lib/locale/anp_IN/LC_MONETARY>, {st_mode=S_IFREG|0644, st_size=294, ...}) = 0
+4757  [00007ffff7eeb252] mmap(NULL, 294, PROT_READ, MAP_PRIVATE, 3</usr/lib/locale/anp_IN/LC_MONETARY>, 0) = 0x7ffff7fc9000
+4757  [00007ffff7ee6657] close(3</usr/lib/locale/anp_IN/LC_MONETARY>) = 0
+4757  [00007ffff7ee67d8] openat(AT_FDCWD, "/usr/lib/locale/en_IN/LC_COLLATE", O_RDONLY|O_CLOEXEC) = 3</usr/lib/locale/aa_DJ.utf8/LC_COLLATE>
+4757  [00007ffff7ee0ef5] fstat(3</usr/lib/locale/aa_DJ.utf8/LC_COLLATE>, {st_mode=S_IFREG|0644, st_size=2586242, ...}) = 0
+4757  [00007ffff7eeb252] mmap(NULL, 2586242, PROT_READ, MAP_PRIVATE, 3</usr/lib/locale/aa_DJ.utf8/LC_COLLATE>, 0) = 0x7ffff7b7e000
+4757  [00007ffff7ee6657] close(3</usr/lib/locale/aa_DJ.utf8/LC_COLLATE>) = 0
+4757  [00007ffff7ee67d8] openat(AT_FDCWD, "/usr/lib/locale/en_IN/LC_TIME", O_RDONLY|O_CLOEXEC) = 3</usr/lib/locale/en_IN/LC_TIME>
+4757  [00007ffff7ee0ef5] fstat(3</usr/lib/locale/en_IN/LC_TIME>, {st_mode=S_IFREG|0644, st_size=3436, ...}) = 0
+4757  [00007ffff7eeb252] mmap(NULL, 3436, PROT_READ, MAP_PRIVATE, 3</usr/lib/locale/en_IN/LC_TIME>, 0) = 0x7ffff7fc8000
+4757  [00007ffff7ee6657] close(3</usr/lib/locale/en_IN/LC_TIME>) = 0
+4757  [00007ffff7ee67d8] openat(AT_FDCWD, "/usr/lib/locale/en_IN/LC_NUMERIC", O_RDONLY|O_CLOEXEC) = 3</usr/lib/locale/as_IN/LC_NUMERIC>
+4757  [00007ffff7ee0ef5] fstat(3</usr/lib/locale/as_IN/LC_NUMERIC>, {st_mode=S_IFREG|0644, st_size=54, ...}) = 0
+4757  [00007ffff7eeb252] mmap(NULL, 54, PROT_READ, MAP_PRIVATE, 3</usr/lib/locale/as_IN/LC_NUMERIC>, 0) = 0x7ffff7fc7000
+4757  [00007ffff7ee6657] close(3</usr/lib/locale/as_IN/LC_NUMERIC>) = 0
+4757  [00007ffff7ee67d8] openat(AT_FDCWD, "/usr/lib/locale/en_IN/LC_CTYPE", O_RDONLY|O_CLOEXEC) = 3</usr/lib/locale/aa_DJ.utf8/LC_CTYPE>
+4757  [00007ffff7ee0ef5] fstat(3</usr/lib/locale/aa_DJ.utf8/LC_CTYPE>, {st_mode=S_IFREG|0644, st_size=337024, ...}) = 0
+4757  [00007ffff7eeb252] mmap(NULL, 337024, PROT_READ, MAP_PRIVATE, 3</usr/lib/locale/aa_DJ.utf8/LC_CTYPE>, 0) = 0x7ffff7b2b000
+4757  [00007ffff7ee6657] close(3</usr/lib/locale/aa_DJ.utf8/LC_CTYPE>) = 0
+4757  [00007ffff7ebd777] uname({sysname="Linux", nodename="codingbug", ...}) = 0
+4757  [00007ffff7ee0ef5] fstat(1</dev/pts/2>, {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0x2), ...}) = 0
+4757  [00007ffff7ee1904] write(1</dev/pts/2>, "Linux codingbug 5.4.0-kali2-amd6"..., 91) = 91
+4757  [00007ffff7ee6657] close(1</dev/pts/2>) = 0
+4757  [00007ffff7ee6657] close(2</dev/pts/2>) = 0
+4757  [00007ffff7ebde56] exit_group(0)  = ?
+4757  [????????????????] +++ exited with 0 +++
+4756  [00007ffff7ebd96a] <... wait4 resumed> [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 4757
+4756  [00007ffff7ebd96a] --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=4757, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+4756  [00007ffff7e30109] rt_sigreturn({mask=[]}) = 4757
+4756  [00007ffff7ebde56] exit_group(0)  = ?
+4756  [????????????????] +++ exited with 0 +++
+4744  [f7fd3b59] <... waitpid resumed> [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0) = 4756
+4744  [f7fd3b59] rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4744  [f7fd3b59] rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, NULL, 8) = 0
+4744  [f7fd3b59] rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+4744  [f7fd3b59] --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=4756, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+4744  [f7fd3b59] _llseek(0</dev/pts/2>, -1, 0xffffcfa0, SEEK_CUR) = -1 ESPIPE (Illegal seek)
+4744  [f7fd3b59] exit_group(0)          = ?
+4744  [????????] +++ exited with 0 +++
