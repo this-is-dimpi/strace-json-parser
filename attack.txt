@@ -1,4 +1,4 @@
-4763  [f7fd3b59] read(0</dev/pts/2>, "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"..., 1024) = 43
+14763  [f7fd3b59] read(0</dev/pts/2>, "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"..., 1024) = 43
 4763  [f7fd3b59] write(1</dev/pts/2>, "Name buffer address:    ffffcfc0"..., 33) = 33
 4763  [f7fd3b59] write(1</dev/pts/2>, "Command buffer address: ffffcfe8"..., 33) = 33
 4763  [f7fd3b59] write(1</dev/pts/2>, "Goodbye, AAAAAAAAAAAAAAAAAAAAAAA"..., 53) = 53
