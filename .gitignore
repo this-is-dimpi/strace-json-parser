@@ -1,2 +1,3 @@
 **/*.json
-!**/RawData/**/*.json
+!**/pruneData/**/*.json
+
